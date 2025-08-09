@@ -1,3 +1,36 @@
 h1{
-    background-color: chartreuse;
+    color: chartreuse;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 1.3fr;
+
+}
+
+nav{
+    background-color: darkgreen;
+}
+
+main{
+background-color: darkred;
+}
+
+#Sidebar{
+    background-color: crimson;
+}
+#Content1{
+    background-color: darkgreen;
+}
+#Content2{
+    background-color: rgb(185, 34, 34);
+}
+#Content3{
+    background-color: rgb(87, 26, 230);
+}
+
+footere{
+    background-color: gold;
 }
